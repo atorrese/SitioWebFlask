@@ -1,0 +1,98 @@
+{% extends 'base/base.html' %}
+
+{% block contenido %}
+    <section class="masthead page-section  inicio-radius">
+        <div class="container formulario animated flipInX">
+            <br>
+            <h2 class="page-section-heading text-center text-title mb-0">Ejercicios</h2>
+            <br>
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <form action="" class="form-group" method="POST" id="form">
+                        <div class="form-group">
+                            <select name="select" class="form-control" va>
+                                <option value="0">Seleccione opcion</option>
+                                <option value="1">Ejercicio 1</option>
+                                <option value="2">Ejercicio 2</option>
+                                <option value="3">Ejercicio 3</option>
+                                <option value="4">Ejercicio 4</option>
+                                <option value="5">Ejercicio 5</option>
+                                <option value="6">Ejercicio 6</option>
+                                <option value="7">Ejercicio 7</option>
+                                <option value="8">Ejercicio 8</option>
+                                <option value="9">Ejercicio 9</option>
+                                <option value="10">Ejercicio 10</option>
+                                <option value="11">Ejercicio 11</option>
+                                <option value="12">Ejercicio 12</option>
+                                <option value="13">Ejercicio 13</option>
+                                <option value="14">Ejercicio 14</option>
+                                <option value="15">Ejercicio 15</option>
+                                <option value="16">Ejercicio 16</option>
+                                <option value="17">Ejercicio 17</option>
+                                <option value="18">Ejercicio 18</option>
+                                <option value="19">Ejercicio 19</option>
+                                <option value="20">Ejercicio 20</option>
+                                <option value="21">Ejercicio 21</option>
+                                <option value="22">Ejercicio 22</option>
+                                <option value="23">Ejercicio 23</option>
+                                <option value="24">Ejercicio 24</option>
+                                <option value="25">Ejercicio 25</option>
+                                <option value="26">Ejercicio 26</option>
+                                <option value="27">Ejercicio 27</option>
+                                <option value="28">Ejercicio 28</option>
+                                <option value="29">Ejercicio 29</option>
+                                <option value="30">Ejercicio 30</option>
+                                <option value="31">Ejercicio 31</option>
+                                <option value="32">Ejercicio 32</option>
+                                <option value="33">Ejercicio 33</option>
+                                <option value="34">Ejercicio 34</option>
+                                <option value="35">Ejercicio 35</option>
+                                <option value="36">Ejercicio 36</option>
+                                <option value="37">Ejercicio 37</option>
+                                <option value="38">Ejercicio 38</option>
+                                <option value="39">Ejercicio 39</option>
+                                <option value="40">Ejercicio 40</option>
+                                <option value="41">Ejercicio 41</option>
+                                <option value="42">Ejercicio 42</option>
+                                <option value="43">Ejercicio 43</option>
+                            </select>
+                        </div>
+                        <div class="control-group">
+                            <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                <label>Valor1</label>
+                                <input class="form-control" name="valor1" id="valor1" type="text" placeholder="Valor1"
+                                   value="{{n1}}"
+                                   />
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                <label>Valor2</label>
+                                <input class="form-control" name="valor2" id="valor2" type="text" placeholder="Valor2"
+                                   value= "{{n2}}"
+                                   />
+                            </div>
+                        </div>
+                        <div class="control-group mb-2">
+                            <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                <label>Valor3</label>
+                                <input class="form-control" name="valor3" id="valor3" type="text" placeholder="Valor3"
+                                   value= "{{n3}}"
+                                   />
+                            </div>
+                        </div>     
+                    <div class="form-group">
+                        <div class="form-group">
+                        <button class="form-control btn btn-success" id="Aceptar" type="submit">Aceptar</button>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <textarea disabled class="form-control" name="" id="" rows="5">{{respuesta}}</textarea>
+                    </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </section>
+{% endblock %}
